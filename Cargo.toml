@@ -1,0 +1,13 @@
+[package]
+name = "registrator"
+version = "0.1.0"
+authors = ["Andreas Ekeroot <andeke@gmail.com>"]
+
+[dependencies.zinc]
+git = "https://github.com/hackndev/zinc.git"
+branch = "master"
+features = ["mcu_stm32f4"]
+
+[dependencies.macro_zinc]
+git = "https://github.com/hackndev/zinc.git"
+branch = "master"
